@@ -11,16 +11,6 @@
 
     <header>
     
-  
-   
-       <!-- <div class="logo">
-       
-   <br> <br>
-            <img src="images/PantryFinder(1).png">
-
-        </div> -->
-
-
 <div class="wrapper">
 
 <ul class="nav-area">

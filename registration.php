@@ -8,11 +8,11 @@
 <body>
 <?php
     require('db.php');
-    // When form submitted, insert values into the database.
+   
     if (isset($_REQUEST['username'])) {
-        // removes backslashes
+        
         $username = stripslashes($_REQUEST['username']);
-        //escapes special characters in a string
+      
         $username = mysqli_real_escape_string($con, $username);
 
         $fullname    = stripslashes($_REQUEST['fullname']);
